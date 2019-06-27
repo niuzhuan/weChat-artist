@@ -1,0 +1,15 @@
+<!--pages/movie/movie.wxml-->
+<view wx:for="{{list}}" wx:key="{{index}}" class='list-box'>
+  <view class='tabview'>
+    <navigator url="{{item.pageName+'?id='+item.id}}">
+      <view class='title'>{{item.title}}</view>
+      <view>
+          <image src='{{imagePrefix+item.img_url}}' class='img_url'></image>
+      </view>
+      <view class='subtitle'>《{{item.subtitle}}》</view>
+      <view class='forward'>注: {{item.forward}}</view>
+    </navigator>
+  </view>
+ 
+</view>
+

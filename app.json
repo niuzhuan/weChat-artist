@@ -1,0 +1,59 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/userInfo/userInfo",
+    "pages/user/user",
+    
+   "pages/movieCollect/movieCollect",
+    "pages/movie/movie",
+    "pages/movieDetail/movieDetail",
+
+    "pages/musicCollect/musicCollect",
+    "pages/music/music",
+    "pages/musicDetail/musicDetail",
+
+    "pages/readCollect/readCollect",
+    "pages/readDetail/readDetail",
+    "pages/read/read",
+    
+    "pages/reg/reg",
+    "pages/search/search",
+    "pages/comment/comment",
+    
+    "pages/login/login",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "selectedColor": "#2170fa",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "res/img/main.png",
+      "selectedIconPath": "res/img/main_active.png"
+    },
+    {
+      "pagePath": "pages/read/read",
+      "text": "阅读",
+      "iconPath": "res/img/read.png",
+      "selectedIconPath": "res/img/read_active.png"
+    },
+    {
+      "pagePath": "pages/music/music",
+      "text": "音乐",
+      "iconPath": "res/img/music.png",
+      "selectedIconPath": "res/img/music_active.png"
+    },
+    {
+      "pagePath": "pages/movie/movie",
+      "text": "影视",
+      "iconPath": "res/img/movie.png",
+      "selectedIconPath": "res/img/movie_active.png"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

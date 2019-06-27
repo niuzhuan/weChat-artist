@@ -1,0 +1,25 @@
+/* pages/readCollect/readCollect.wxss */
+.read-box{
+  display: flex;
+}
+.img-box{
+  height:88rpx;
+  width:88rpx;
+  text-align: center;
+  line-height:88rpx;
+}
+.img-box .img{
+  width:40rpx;
+  height:40rpx;
+  margin-top:14rpx;
+}
+.title{
+  height:88rpx;
+  line-height:88rpx;
+  border-bottom: 1px solid #e5e5e5;
+  flex-grow:1;
+  font-weight:600;
+  font-size:35rpx;
+  padding-right:15rpx;
+  flex-wrap: wrap;
+}

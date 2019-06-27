@@ -1,0 +1,40 @@
+/* pages/read/read.wxss */
+
+.list-box{
+  margin-top:22rpx;
+}
+.categoryName{
+  text-align: center;
+  color:#c9c9cc;
+  font-size:24rpx;
+}
+.title{
+  font-size:28rpx;
+}
+.author_name{
+  margin-top:14rpx;
+  color:#c9c9cc;
+  font-size:28rpx;
+}
+.img_url{
+  height:338rpx;
+  width:684rpx;
+}
+.forward{
+   color:#c9c9cc;
+  font-size:28rpx;
+}
+.time-like{
+  color:#ababaf;
+  font-size:28rpx;
+}
+.back-color{
+  height:20rpx;
+  background:#ccc;
+}
+.tabview{
+  padding-bottom:29rpx;
+  border-bottom:1px solid #ababaf;
+  margin-left:32rpx;
+  margin-right:32rpx;
+}

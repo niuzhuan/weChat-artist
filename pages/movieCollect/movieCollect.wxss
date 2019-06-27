@@ -1,0 +1,32 @@
+/* pages/movieCollect/movieCollect.wxss */
+page{
+  background-color: #e5e5e5;
+}
+.big-box{
+  
+  background:#e5e5e5;
+  overflow: hideen;
+ 
+}
+.tableview{
+  width:351rpx;
+  height:366rpx;
+  float:left;
+  margin:0 12rpx 24rpx 12rpx;
+  background:#fff;
+  box-shadow: 4px 4px 2px #c8c8c8;
+}
+.img{
+  width:351rpx;
+  height:263rpx;
+  
+}
+.title{
+  width:351rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  padding:4rpx 8rpx;
+  font-size:28rpx;
+  color:#5a5a5a;
+}

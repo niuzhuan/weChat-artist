@@ -1,0 +1,47 @@
+/* pages/readDetail/readDetail.wxss */
+.big-view{
+  padding-left:15rpx;
+  padding-right:15rpx;
+  padding-bottom:130rpx;
+}
+.hp_title{
+  font-size:30rpx;
+  font-weight:bold;
+  padding-top:40rpx;
+  border-top:1px solid #ccc;
+  
+}
+.actor{
+  font-size:28rpx;
+  color:#ccc;
+  margin-top:40rpx;
+}
+.hp_content{
+  font-size:28rpx;
+
+}
+.real_content{
+  margin-top:40rpx;
+  font-size:28rpx;
+}
+
+.toolbar{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	border-top: 1px solid #ccc;
+	background-color: #ececec;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	vertical-align: middle;
+}
+.toolbar image{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+} 

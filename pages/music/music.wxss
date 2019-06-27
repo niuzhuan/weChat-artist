@@ -1,0 +1,62 @@
+/* pages/music/music.wxss */
+.list-box{
+  padding-right:15rpx;
+}
+.tabview{
+  background:#fff;
+  height:240rpx;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  display: flex;
+}
+.big-img{
+  margin-top:40rpx;
+  position:relative;
+  padding-left:22rpx;
+  padding-right:22rpx;
+}
+.img_url{
+  width: 150rpx;
+  height:150rpx;
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+.circle{
+  width:50rpx;
+  height:50rpx;
+  border-radius: 50%;
+  position: absolute;
+  background:#fff;
+  top:48rpx;
+  left:73rpx;
+}
+.wid{
+  height:14rpx;
+  background:#ebebf1;
+}
+.title{
+  width:542rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size:31rpx;
+  margin-top:20rpx;
+}
+.author_name{
+  font-size:28rpx;
+  color:#7a7a80;
+  margin-top:20rpx;
+}
+.time-like{
+  font-size:28rpx;
+  color:#7a7a80;
+}
+.forward{
+  font-size:28rpx;
+  color:#7a7a80;
+  width:560rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top:20rpx;
+}

@@ -1,0 +1,25 @@
+<!--pages/comment/comment.wxml-->
+<view class='comment-title'>评论列表</view>
+<view wx:for="{{list}}" wx:key="{{index}}" class='tableview'>
+  <view class='cell'>
+    <image src='{{imagePrefix+item.image}}' class='img'></image>
+    <view class='username'>{{item.username}}</view>
+    <view class='create_time'>{{item.create_time}}</view>
+  </view>
+  <view class='comment'>{{item.comment}}</view>
+</view>
+
+<view class='toolbar'>
+  <button bindtap='dealShow'>添加评论</button>
+</view>
+
+<view class='comment-box' wx:if="{{isShowCommetView}}">
+  <view class='comment-view'>
+    <textarea placeholder='在这里写下你想说的' class='input-area' value="{{comment}}" bindinput="dealInput"></textarea>
+    <view class='control'>
+      <view class='input-number'>{{inputNumbers}}</view>
+      <button class='button cancel' bindtap='dealHide'>取消</button>
+      <button class='button send' bindtap='dealSend'>发布</button>
+    </view>
+  </view>
+</view> 

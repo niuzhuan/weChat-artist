@@ -1,0 +1,65 @@
+/* pages/user/user.wxss */
+.top{
+  position:relative;
+  background:#ecebf2;
+}
+.img{
+  height:463rpx;
+
+}
+.img-head{
+  width:220rpx;
+  height:220rpx;
+  border-radius: 50%;
+  position:absolute;
+  top:103rpx;
+  left:276rpx;
+  
+}
+.username{
+  width:220rpx;
+  height:40rpx;
+  font-size:31rpx;
+  color:#fff;
+  font-weight:bold;
+  line-height:36rpx;
+  position:absolute;
+  top:363rpx;
+  left:276rpx;
+  text-align: center;
+}
+.big-box{
+  background:#ecebf2;
+  height:712rpx;
+}
+.same{
+  padding-top:24rpx;
+  
+}
+.same image{
+  width:43rpx;
+  height:43rpx;
+  padding-right:19rpx;
+  padding-top:23rpx;
+}
+.collect-nav{
+  height:55rpx;
+  color:#605c71;
+  line-height:55rpx;
+  background:#fff;
+  font-size:31rpx;
+  padding-left:12rpx;
+  box-sizing:border-box;
+}
+.line{
+  display: flex;
+  height:80rpx;
+  line-height:80rpx;
+  background:#fff;
+  border-top:1px solid #f4f4f4;
+  padding-left:12rpx;
+  box-sizing:border-box;
+}
+.line view{
+  font-size:32rpx;
+}

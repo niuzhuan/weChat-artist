@@ -1,0 +1,25 @@
+/* pages/movie/movie.wxss */
+.list-box{
+  padding:0 25rpx;
+  border-top:1px solid #ababaf;
+  padding-bottom:40rpx;
+}
+
+.title{
+  height:85rpx;
+  line-height: 85rpx;
+  font-size:31rpx;
+} 
+.img_url{
+  height:386rpx;
+  width:685rpx;
+}
+.subtitle{
+  margin-top:30rpx;
+   font-size:31rpx;
+   font-weight:bold;
+}
+.forward{
+  margin-top:10rpx;
+   font-size:31rpx;
+}

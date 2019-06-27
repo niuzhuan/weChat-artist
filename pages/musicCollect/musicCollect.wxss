@@ -1,0 +1,35 @@
+/* pages/readCollect/readCollect.wxss */
+.read-box{
+  display: flex;
+}
+.img-box{
+  height:131rpx;
+  width:124rpx;
+  text-align: center;
+}
+.img-box .img{
+  width:88rpx;
+  height:88rpx;
+  margin-top:32rpx;
+}
+.content-right{
+  height:150rpx;
+  flex-grow:1;
+  border-bottom:1px solid #e5e5e5;
+}
+.title{
+  width:628rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight:590;
+  font-size:33rpx;
+  padding-right:12rpx;
+  margin-top:27rpx;
+}
+.author_name{
+  margin-top:18rpx;
+  font-size:29rpx;
+  color:#979797;
+  
+}

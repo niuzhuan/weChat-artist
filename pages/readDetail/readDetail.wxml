@@ -1,0 +1,25 @@
+<!--pages/readDetail/readDetail.wxml-->
+<view class='big-view'>
+  <view class='hp_title'>{{item.hp_title}}</view>
+  <view class='actor'>作者:{{item.author_name}}</view>
+  <rich-text class="detail-content" nodes="{{item.real_content}}"></rich-text>
+</view>
+
+<view class='toolbar'>
+  <view bindtap="dealCollect">
+    <image src="{{isCollect?'/res/img/bubble_collected.png':'/res/img/bubble_collect.png'}}"></image>
+    收藏
+  </view>
+  <view bindtap="dealGood">
+    <image src="{{isGood?'/res/img/bubble_liked.png':'/res/img/bubble_like.png'}}"></image>
+    点赞
+  </view>
+  <view bindtap="dealShowCommet">
+    <image src='/res/img/bottom_comment.png'></image>
+    评论
+  </view>
+  <view>
+    <image src='/res/img/small_08.png'></image>
+    分享
+  </view>
+</view>

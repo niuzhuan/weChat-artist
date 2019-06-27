@@ -1,0 +1,31 @@
+<!--pages/movieDetail/movieDetail.wxml-->
+<view class='big-box'>
+  <view>
+    <image src="{{item.img_url?imagePrefix+item.img_url:''}}" class='img'></image>
+  </view>
+  <view>
+    <video src="{{item.media_url?imagePrefix+item.media_url:''}}" class='video'></video>
+  </view>
+  <view class='title'>《{{item.title}}》</view>
+  <text class='info' >{{item.info}}</text>
+</view>
+
+<view class='toolbar'>
+  <view bindtap="dealCollect">
+    <image src="{{isCollect?'/res/img/bubble_collected.png':'/res/img/bubble_collect.png'}}"></image>
+    收藏
+  </view>
+  <view bindtap='dealGood'>
+    <image src="{{isGood?'/res/img/bubble_liked.png':'/res/img/bubble_like.png'}}"></image>
+    点赞
+  </view>
+  <view bindtap="dealShowCommet">
+    <image src='/res/img/bottom_comment.png'></image>
+    评论
+  </view>
+  <view>
+    <image src='/res/img/small_08.png'></image>
+    分享
+  </view>
+</view>
+

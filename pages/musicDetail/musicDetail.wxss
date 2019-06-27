@@ -1,0 +1,62 @@
+/* pages/musicDetail/musicDetail.wxss */
+.big-box{
+  background:#ebebf1;
+  padding-left:15rpx;
+  padding-right:15rpx;
+}
+.img-box{
+  height:450rpx;
+  width:450rpx;
+}
+.img{
+  height:450rpx;
+  width:450rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left:142rpx;
+  margin-top:22rpx;
+}
+.title{
+  margin-top:32rpx;
+  font-size:31rpx;
+  color:#7d8698;
+  text-align: center;
+}
+.forward{
+  margin-top:25rpx;
+  font-size:31rpx;
+  color:#7d8698;
+  text-align: center;
+}
+.story_title{
+  margin-top:20rpx;
+  font-size:40rpx;
+  font-weight:bold;
+  text-align: center;
+}
+.author_name{
+  margin-top:32rpx;
+  font-size:31rpx;
+  color:#7d8698;
+  text-align: center;
+}
+.toolbar{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	border-top: 1px solid #ccc;
+	background-color: #ececec;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	vertical-align: middle;
+}
+.toolbar image{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+} 

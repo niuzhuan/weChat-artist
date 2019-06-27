@@ -1,0 +1,51 @@
+<!--pages/userInfo/userInfo.wxml-->
+<view class='tableview-title'>
+  基本资料
+</view>
+<view class='tableview'>
+  <view class='cell' bindtap="dealShowSelectImageBox">
+    <text class='head-text'>头像</text>
+    <image class='head-image' src="{{headImage?imagePrefix+headImage:''}}"></image>
+  </view>
+
+  <view class='background-area'>
+    <text class='background-title'>背景</text>
+    <view class='background-img'>
+      <image src='/res/img/next.png' class='next'></image>
+    </view>
+  </view>
+
+  <view class='background-area'>
+    <text class='username-title hang'>昵称</text>
+    <text class='username'>wefgbvcx</text>
+    <view class='background-img'>
+      <image src='/res/img/pen.png' class='pen'></image>
+    </view>
+  </view>
+
+  <view class='background-area'>
+    <text class='username-title'>密码</text>
+    <text class='username'>wefgbvcx</text>
+    <view class='background-img'>
+      <image src='/res/img/pen.png' class='pen'></image>
+    </view>
+  </view>
+
+  <view class='background-area'>
+    <text class='phone'>手机号</text>
+    <text class='nophone'>禁止修改</text>
+  </view>
+
+</view>
+
+
+<view class='select-image-box' wx:if="{{isShowSelectImageBox}}">
+  <view class='select-img-box'> 
+    <view class='select-image-area'>
+      <image src="{{selectHeadImage}}" class='select-image'></image>
+    </view>
+    <button bindtap="dealChooseImage" class='choose btn'>选择图片</button>
+    <button bindtap="dealUploadImage" class='upload btn'>上传图片</button>
+    <button bindtap="dealShowSelectImageBox" class='upload btn' >取消</button>
+  </view>
+</view>

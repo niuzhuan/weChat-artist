@@ -1,0 +1,23 @@
+<!--pages/read/read.wxml-->
+
+
+<view wx:for="{{list}}" wx:key="{{index}}" class='list-box'>
+  <view class='tabview'>
+    <navigator url="{{item.pageName+'?id='+item.id}}">
+      <view class='categoryName'>- {{item.categoryName}} -</view>
+      <view class='title'>{{item.title}}</view>
+      <view class='author_name'>作者:{{item.author_name}}</view>
+      <view>
+          <image src='{{imagePrefix+item.img_url}}' class='img_url'></image>
+      </view>
+      <view class='forward'>{{item.forward}}</view>
+      <view class='time-like'>
+        <text>更新时间:{{item.post_date}}</text>
+        <text>收藏:{{item.like_count}}</text>
+      </view>
+    </navigator>
+  </view>
+ 
+  <view class='back-color'></view>
+</view>
+

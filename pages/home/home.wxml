@@ -1,0 +1,48 @@
+<!--pages/home/home.wxml-->
+<view class='search-box'>
+  <view class='left'>
+    <navigator url="/pages/search/search">
+      <image src="/res/img/search.png" class='left-img'></image>
+    </navigator>
+  </view>
+  <view class='center'></view>
+  <view class='right'>
+    <navigator url="{{rightUrl}}">
+      <image src="/res/img/user2.png" class='right-img'></image>
+    </navigator>
+  </view>
+</view>
+
+<view class='swiper-box'>
+  <swiper autoplay='true' circular='true' indicator-dots='true' duration='500' interval='3000'>
+    <block wx:for="{{ads}}" wx:key="{{index}}">
+      <swiper-item class="swiper-item">
+        <navigator url="{{item.pageName+'?id='+item.id}}">
+          <image src='{{imagePrefix+item.img_url}}' class='swiper-img'></image>
+        </navigator>
+
+      </swiper-item>
+    </block>
+
+  </swiper>
+</view>
+
+<view wx:for="{{list}}" wx:key="{{index}}" class='list-box'>
+  <view class='tabview'>
+    <navigator url="{{item.pageName+'?id='+item.id}}">
+      <view class='categoryName'>- {{item.categoryName}}</view>
+      <view class='title'>{{item.title}}</view>
+      <view class='author_name'>作者:{{item.author_name}}</view>
+      <view>
+        <image src='{{imagePrefix+item.img_url}}' class='img_url'></image>
+      </view>
+      <view class='forward'>{{item.forward}}</view>
+      <view class='time-like'>
+        <text>更新时间:{{item.post_date}}</text>
+        <text>收藏:{{item.like_count}}</text>
+      </view>
+    </navigator>
+  </view>
+
+  <view class='back-color'></view>
+</view>

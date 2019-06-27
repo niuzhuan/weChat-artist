@@ -1,0 +1,54 @@
+<!--pages/user/user.wxml-->
+<view class='top'>
+  <image src='/res/img/default_indi_bg.png' class='img'></image>
+  <image class='img-head' src="{{headImage}}"></image>
+  <view class='username'>{{username}}</view>
+</view>
+
+<view class='big-box'>
+  <view class='collect same'>
+    <view class='collect-nav'>收藏</view>
+    <navigator url="/pages/readCollect/readCollect">
+      <view class='collect-read line'>
+        <image src="/res/img/read.png"></image>
+        <view class='read'>阅读</view>
+      </view>
+    </navigator>
+    <navigator url= "/pages/musicCollect/musicCollect">
+      <view class='collect-music line'>
+        <image src="/res/img/music.png"></image>
+        <view class='music'>音乐</view>
+      </view>
+    </navigator>
+    <navigator url="/pages/movieCollect/movieCollect">
+      <view class='collect-movie line'>
+        <image src="/res/img/movie.png"></image>
+        <view class='movie'>影视</view>
+      </view>
+    </navigator>
+  </view>
+
+
+
+
+  <view class='set-box same'>
+    <view class='personal-set line' bindtap='dealloadinfo'>
+      <image src="/res/img/individual_center.png"></image>
+      <view class='personal'>个人设置</view>
+    </view>
+    <view class='set line'>
+      <image src="/res/img/center_feedback.png"></image>
+      <view class='setting'>设置</view>
+    </view>
+  </view>
+
+
+
+  <view class='collect same'>
+    <view class='collect-read line'>
+      <image src="/res/img/aliwx_reply_bar_close_normal.png"></image>
+      <view class='read' bindtap="dealLogout">退出登录</view>
+    </view>
+  </view>
+
+</view>

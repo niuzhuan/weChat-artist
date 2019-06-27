@@ -1,0 +1,83 @@
+/* pages/home/home.wxss */
+.search-box{
+  height:69rpx;
+  display: flex;
+  background:#f5f5f5;
+}
+.left{
+  width:60rpx;
+  margin-top:15rpx;
+  margin-left:20rpx;
+}
+.right{
+  width:60rpx;
+  margin-top:15rpx;
+}
+.left-img{
+  width:40rpx;
+  height:40rpx;
+}
+.center{
+  flex-grow:1;
+}
+.right-img{
+  width:40rpx;
+  height:40rpx;
+}
+
+
+
+.swiper-img{
+  height:298rpx;
+  width:728rpx;
+}
+.swiper-box{
+  height:298rpx;
+  width:728rpx;
+}
+.wx-swiper-dots{
+  position:relative;
+  bottom:80rpx !important;
+}
+.list-box{
+  margin-top:22rpx;
+  
+  
+  
+  
+}
+.categoryName{
+  text-align: center;
+  color:#c9c9cc;
+  font-size:24rpx;
+}
+.title{
+  font-size:28rpx;
+}
+.author_name{
+  margin-top:14rpx;
+  color:#c9c9cc;
+  font-size:28rpx;
+}
+.img_url{
+  height:338rpx;
+  width:684rpx;
+}
+.forward{
+   color:#c9c9cc;
+  font-size:28rpx;
+}
+.time-like{
+  color:#ababaf;
+  font-size:28rpx;
+}
+.back-color{
+  height:20rpx;
+  background:#ccc;
+}
+.tabview{
+  padding-bottom:29rpx;
+  border-bottom:1px solid #ababaf;
+  margin-left:32rpx;
+  margin-right:32rpx;
+}

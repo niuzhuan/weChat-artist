@@ -1,0 +1,10 @@
+<view class='big-box'>
+  <view class='tableview' wx:for="{{list}}" wx:key="{{index}}">
+    <navigator url="{{item.pageName+'?id='+item.id}}">
+      <view class='img-area'>
+        <image src='{{imagePrefix+item.img_url}}' class='img'></image>
+      </view>
+      <view class='title'>{{item.title}}</view>
+    </navigator>
+  </view>
+</view>

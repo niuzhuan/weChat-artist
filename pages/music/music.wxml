@@ -1,0 +1,22 @@
+<!--pages/music/music.wxml-->
+<view wx:for="{{list}}" wx:key="{{index}}" class='list-box'>
+  <navigator url="{{item.pageName+'?id='+item.id}}" class='tabview'>
+    <view class='big-img'>
+        <image src='{{imagePrefix+item.img_url}}' class='img_url'></image>
+        <view class='circle'></view>
+    </view>
+    <view>
+      <view class='title'>{{item.title}}</view>
+      <view class='author_name'>作者:{{item.author_name}}</view>
+      <view class='time-like'>
+        <text>更新时间:{{item.post_date}}</text>
+        <text>收藏:{{item.like_count}}</text>
+      </view>
+      <view class='forward'>{{item.forward}}</view>
+    </view>
+    
+  </navigator>
+  <view  class='wid'></view>
+</view>
+
+

@@ -1,0 +1,25 @@
+<!--pages/search/search.wxml-->
+<view class='search-area'>
+  <view class='search'>
+    <view class='img-area'>
+      <image src='/res/img/search_min.png' class='search-img'></image>
+    </view>
+    <input placeholder='搜索关键字' class='ipt' bindinput='dealInput' value='{{keyword}}' id="keyword"></input>
+  </view>
+  <button class='tab' bindtap='dealSearch'>搜索</button>
+</view>
+
+<view class='result-area'>
+  <view class='result-title'>搜索结果</view>
+  <view  wx:for="{{list}}" wx:key="{{index}}">
+    <navigator url="{{item.pageName+'?id='+item.id}}" class='result'>
+      <view>
+        <image src='{{imagePrefix+item.img_url}}' class='result-img'></image>
+      </view>
+      <view>
+        <view class='title'>{{item.title}}</view>
+        <view class='forward'>{{item.forward}}</view>
+      </view>
+    </navigator>
+  </view>
+</view>

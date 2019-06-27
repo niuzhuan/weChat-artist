@@ -1,0 +1,12 @@
+<!--pages/reg/reg.wxml-->
+<!--pages/login/login.wxml-->
+<view class='login-box'>
+  <input class="ipt" id='username' bindinput='dealInput' value='{{username}}' placeholder='请输入用户名'></input>
+  <input class='ipt' id='password' bindinput='dealInput'  value='{{password}}'  placeholder='请输入密码'></input>
+  <input class="ipt" id='repeatPassword' bindinput='dealInput'  value='{{repeatPassword}}'  placeholder='请输入重复输入密码'></input>
+  <input class='ipt' id='phone' bindinput='dealInput'  value='{{phone}}'  placeholder='请输入手机号'></input>
+</view>
+<view class='btn-box'>
+  <button class='btn' bindtap='dealreg'>注册</button>
+</view>
+
